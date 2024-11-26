@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <hr>
+<!--Header for NHL Daily-->
+        <header>
+            <style>
+                h1 {text-align: center;}
+            </style>
+            <h1>NHL Daily</h1>
+            <img width="100" height="110"src="nhlpic.png" alt="nhl badge" class="center">
+        </header>
+        <hr>
+<!--Navigation Menu-->
+        <nav>
+            <ul>
+              <li><a href="injurynews.html">Injury News</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Links</a></li>
+            </ul>
+          </nav>
+<!--Drop down menu to choose favorite team-->
+        <script type="text/javascript">
+            var urlmenu = document.getElementById('menu1');
+            urlmenu.onchange = function () {
+                window.location = this.options[this.selectedIndex].value;
+            };
+            </script>
+            
+            Select your favorite team:
+            
+            <html>
+            
+            <head>
+            </head>
+<!--Link to each NHL team-->          
+            <body>
+              <select name="menu1" id="menu1">
+                <option value="https://www.espn.com/nhl/team/_/name/ana/anaheim-ducks">Anaheim Ducks</option>
+                <option value="https://www.espn.com/nhl/team/_/name/bos/boston-bruins">Boston Bruins</option>
+                <option value="https://www.espn.com/nhl/team/_/name/buf/buffalo-sabres">Buffalo Sabres</option>
+                <option value="https://www.espn.com/nhl/team/_/name/cgy/calgary-flames">Calgary Flames</option>
+                <option value="https://www.espn.com/nhl/team/_/name/car/carolina-hurricanes">Carolina Hurricanes</option>
+                <option value="https://www.espn.com/nhl/team/_/name/chi/chicago-blackhawks">Chicago Blackhawks</option>
+                <option value="https://www.espn.com/nhl/team/_/name/col/colorado-avalanche">Colorado Avalanche</option>
+                <option value="https://www.espn.com/nhl/team/_/name/cbj/columbus-blue-jackets">Columbus Blue Jackets</option>
+                <option value="https://www.espn.com/nhl/team/_/name/dal/dallas-stars">Dallas Stars</option>
+                <option value="https://www.espn.com/nhl/team/_/name/det/detroit-red-wings">Detroit Red Wings</option>
+                <option value="https://www.espn.com/nhl/team/_/name/edm/edmonton-oilers">Edmonton Oilers</option>
+                <option value="https://www.espn.com/nhl/team/_/name/fla/florida-panthers">Florida Panthers</option>
+                <option value="https://www.espn.com/nhl/team/_/name/lak/los-angeles-kings">Los Angeles Kings</option>
+                <option value="https://www.espn.com/nhl/team/_/name/min/minnesota-wild">Minnesota Wild</option>
+                <option value="https://www.espn.com/nhl/team/_/name/mtl/montreal-canadiens">Montreal Canadiens</option>
+                <option value="https://www.espn.com/nhl/team/_/name/nsh/nashville-predators">Nashville Predators</option>
+                <option value="https://www.espn.com/nhl/team/_/name/nj/new-jersey-devils">New Jersey Devils</option>
+                <option value="https://www.espn.com/nhl/team/_/name/nyi/new-york-islanders">New York Islanders</option>
+                <option value="https://www.espn.com/nhl/team/_/name/nyr/new-york-rangers">New York Rangers</option>
+                <option value="https://www.espn.com/nhl/team/_/name/ott/ottawa-senators">Ottowa Senators</option>
+                <option value="https://www.espn.com/nhl/team/_/name/phi/philadelphia-flyers">Philadelphia Flyers</option>
+                <option value="https://www.espn.com/nhl/team/_/name/pit/pittsburgh-penguins">Pittsburgh Penguins</option>
+                <option value="https://www.espn.com/nhl/team/_/name/sj/san-jose-sharks">San Jose Sharks</option>
+                <option value="https://www.espn.com/nhl/team/_/name/sea/seattle-kraken">Seattle Kraken</option>
+                <option value="https://www.espn.com/nhl/team/_/name/stl/st-louis-blues">St Louis Blues</option>
+                <option value="https://www.espn.com/nhl/team/_/name/tb/tampa-bay-lightning">Tampa bay Lightning</option>
+                <option value="https://www.espn.com/nhl/team/_/name/tor/toronto-maple-leafs">Toronto Maple Leafs</option>
+                <option value="https://www.espn.com/nhl/team/_/name/utah/utah-hockey-club">Utah Hockey Club</option>
+                <option value="https://www.espn.com/nhl/team/_/name/van/vancouver-canucks">Vancouver Canucks</option>
+                <option value="https://www.espn.com/nhl/team/_/name/vgk/vegas-golden-knights">Vegas Golden Knights</option>
+                <option value="https://www.espn.com/nhl/team/_/name/wsh/washington-capitals">Washington Capitals</option>
+                <option value="https://www.espn.com/nhl/team/_/name/wpg/winnipeg-jets">Winnepeg Jets</option>
+              </select>
+              <script type="text/javascript">
+                var urlmenu = document.getElementById('menu1');
+                urlmenu.onchange = function() {
+                  window.location = this.options[this.selectedIndex].value;
+                };
+              </script>
+            </body>
+            
+            </html>
+
+        </datalist>
+        <h2>Seattle Kraken</h2>
+        <h5>Nov 17, 2024</h5>
+        <p>The Kraken get shutout in a 2-0 loss to the Rangers.</p>
+        <img width="320" height="240" src="kraken.jpg" alt="kraken">
+        <hr>
+
+        <h2>Macklin CeleSTAR!</h2>
+        <h5>Nov 18, 2024</h5>
+        <p>Macklin Celebrini gets his first game winning goal in overtime vs the Detroit Red Wings.</p>
+        <video width="320" height="240" controls>
+         <source src="cheesyfingers.mp4" type="video/mp4">
+        </video>
+        <hr>
+
+        <h2>Need More Oil</h2>
+        <h5>Nov 18, 2024</h5>
+        <p>The oilers got shutout by Samuel Montembeault, losing to the Canadiens 3-0 with goals from Jake Evans, Brendan Gallagher, and Kaiden Guhle.</p>
+        <img width="320" height="240" src="moreoil.avif" alt="oiloil">
+        <hr>
+
+        <h2>MCDRAISAITL!</h2>
+        <h5>Nov 19, 2024</h5>
+        <p>Leon Draisaitl and Connor McDavid splooge for 3 points a pop against the Senators. After being shutout last night by the Canadiens, the Oilers bounce back on the second leg of the back to back to beat the Senators 5-2. </p>
+        <img width="320" height="" src="mcdrai.webp" alt="mcdrai">
+        <hr>
+
+        <h2>Kirill The Thrill</h2>
+        <h5>Nov 19, 2024</h5>
+        <p>Kirill Kaprizov continues his hot streak, putting up another 2 point game in a 4-2 win against the Blues. He's currently sitting in 2nd place in the Art Ross race with 33 points this season. Nathan Mackinnon sits in 1st place with 34 points.  </p>
+        <img width="320" src="kirill.jpg" alt="kappy">
+        <hr>
+
+    </body>
+</html>
