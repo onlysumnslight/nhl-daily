@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NHL Daily</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="recreate2.css">
+    <link rel="icon" href="nhllogo.png" type="image/icon type">
+</head>
+<body>
+<style>
+    body {font-family: monospace;}
+
+.sidebar {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 10px 10px 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 60px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<!--Side bar icons-->
+<div class="sidebar">
+    <a href="#list"><i class="fa-solid fa-list"></i></a>
+    <a href="#house"><i class="fa-solid fa-house"></i></a>
+    <a href="#user"><i class="fa-solid fa-user"></i></a>
+    <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#gear"><i class="fa-solid fa-gear"></i></a>
+</div>
+
+<div class="main">
+  <h1>NHL Daily</h1>
+  <section>
+    <h2>Seattle Kraken</h2>
+    <h5>Nov 17, 2024</h5>
+    <p>The Kraken get shutout in a 2-0 loss to the Rangers.</p>
+    <img width="320" height="240" src="kraken.jpg" alt="kraken"> <br> <br>
+  </section>
+    
+    <section>
+    <h2>Macklin CeleSTAR!</h2>
+    <h5>Nov 18, 2024</h5>
+    <p>Macklin Celebrini gets his first game winning goal in overtime vs the Detroit Red Wings.</p>
+    <video width="320" height="240" controls>
+     <source src="cheesyfingers.mp4" type="video/mp4">
+    </video> <br> <br>
+    </section>
+  
+    <section>
+    <h2>Need More Oil</h2>
+    <h5>Nov 18, 2024</h5>
+    <p>The oilers got shutout by Samuel Montembeault, losing to the Canadiens 3-0 with goals from Jake Evans, Brendan Gallagher, and Kaiden Guhle.</p>
+    <img width="320" height="240" src="moreoil.avif" alt="oiloil"> <br> <br>
+  </section>
+
+  <section>
+    <h2>MCDRAISAITL!</h2>
+    <h5>Nov 19, 2024</h5>
+    <p>Leon Draisaitl and Connor McDavid splooge for 3 points a pop against the Senators. <br> After being shutout last night by the Canadiens, the Oilers bounce back on the second leg of the back to back to beat the Senators 5-2. </p>
+    <img width="320" height="" src="mcdrai.webp" alt="mcdrai"> <br> <br>
+  </section>
+
+    <section>
+    <h2>Kirill The Thrill</h2>
+    <h5>Nov 19, 2024</h5>
+    <p>Kirill Kaprizov continues his hot streak, putting up another 2 point game in a 4-2 win against the Blues. <br> He's currently sitting in 2nd place in the Art Ross race with 33 points this season. <br> Nathan Mackinnon sits in 1st place with 34 points.  </p>
+    <img width="320" src="kirill.jpg" alt="kappy"> <br> <br>
+  </section>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+</body>
+</html>
